@@ -1,23 +1,21 @@
 {
-  "name": "web_dev_simplified",
+  "name": "passport_login",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon server.js"
+    "devStart" : "nodemon sever.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "ejs": "^3.1.6",
-    "express": "^4.17.2",
-    "express-ejs-layouts": "^2.5.1",
-    "mongoose": "^6.2.0"
+    "express": "^4.17.2"
   },
   "devDependencies": {
-    "dotenv": "^16.0.0",
+    "dotenv": "^15.0.0",
     "nodemon": "^2.0.15"
   }
 }
